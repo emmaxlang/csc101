@@ -1,8 +1,5 @@
-var first= document.getElementById('one');
-var second= document.getElementById('two');
-var third= document.getElementById('three');
-var addbtn= document.getElementById('addbtn');
-
-addbtn.addEventListener("click". function(){
-        alert(+first.value + +second.value + +third.value)
-})
+var number1 = +window.prompt('First Number')
+var number2 = +window.prompt('Second Number')
+var number3 = +window.prompt('Third Number')
+ 
+alert(number1 + number2 + number3)
